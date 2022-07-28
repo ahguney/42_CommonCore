@@ -1,0 +1,5 @@
+Credentials cache: API:D3FD393D-009B-4B8A-8BCD-2DE91C91359C
+        Principal: ahguney@42KOCAELI.COM.TR
+
+  Issued                Expires               Principal
+Nov 24 13:08:38 2021  Nov 24 23:08:38 2021  krbtgt/42KOCAELI.COM.TR@42KOCAELI.COM.TR
