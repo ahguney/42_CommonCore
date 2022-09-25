@@ -5,12 +5,12 @@ SRC = $(wildcard ./*.c libft/*.c)
 OBJ = $(SRC:.c=.o)
 
 CC = gcc
-CFLAG = -Wall -Wextra -Werror -g
+CFLAG =  -g -Wall -Wextra -Werror
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	$(CC) $(CFLAG) $(OBJ) -o $(NAME)
+	$(CC)  $(CFLAG)  $(OBJ) -o $(NAME)
 
 clean:
 	rm -f $(OBJ)

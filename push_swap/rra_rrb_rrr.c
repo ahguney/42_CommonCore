@@ -4,7 +4,6 @@ int	reverserotate(t_list **stack)
 {
 	t_list	*tmp;
 	t_list	*end;
-
 	if (ft_lstsize(*stack) < 2)
 		return (-1);
 	tmp = *stack;

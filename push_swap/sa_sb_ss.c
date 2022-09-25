@@ -3,20 +3,18 @@
 int	swap(t_list **stack)
 {
 	t_list	*tmp;
-	t_list	*holder;
-	int		data;
 	int		i;
+	int a;
 
 	if (ft_lstsize(*stack) < 2)
 		return (-1);
 	tmp = *stack;
-	holder = tmp->next;
-	data = tmp->content;
 	i = tmp->index;
-	tmp->content = holder->content;
-	tmp->index = holder->index;
-	holder->content = data;
-	holder->index = i;
+	tmp->index = tmp->next->index;
+	tmp->next->index = i;
+	a = tmp->content;
+	tmp->content = tmp->next->content;
+	tmp->next->content = a;
 	return (0);
 }
 

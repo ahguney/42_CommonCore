@@ -24,7 +24,7 @@ void	radix_sort(t_list **stack_a, t_list **stack_b);
 void	simple_sort(t_list **stack_a, t_list **stack_b);
 
 int		reverserotate(t_list **stack);
-int		push(t_list **dest, t_list **source);
+int 	push(t_list **stack_0, t_list **stack1);
 int		pb(t_list **stack_a, t_list **stack_b);
 int		pa(t_list **stack_a, t_list **stack_b);
 int		rotate(t_list **stack);

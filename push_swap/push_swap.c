@@ -51,7 +51,7 @@ int	main(int ac, char **av)
 {
 	t_list	**stack_a;
 	t_list	**stack_b;
-
+	
 	if (ac < 2)
 		return (-1);
 	check_args(ac, av);
