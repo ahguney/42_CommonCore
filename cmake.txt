@@ -6,5 +6,5 @@ add_executable(out a.c)
 
 Terminal:
 
-cmake -S .
+cmake .
 Make
