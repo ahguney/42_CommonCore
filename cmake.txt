@@ -1,9 +1,6 @@
 Touch CMakeLists.txt
 
 Txt:
-
-cmake_minimum_required(VERSION 3.21)
-project(isim)
 add_executable(out a.c)
 
 
