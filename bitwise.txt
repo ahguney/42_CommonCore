@@ -1,1 +1,2 @@
 http://www.baskent.edu.tr/~tkaracay/etudio/ders/prg/java/ch06/bitwiseOperators.pdf
+https://github.com/42seoul-minishell/minishell
