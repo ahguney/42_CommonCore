@@ -1,4 +1,5 @@
 http://www.baskent.edu.tr/~tkaracay/etudio/ders/prg/java/ch06/bitwiseOperators.pdf
 https://github.com/42seoul-minishell/minishell
 https://github.com/Nakawashi/Minishell/blob/main/srcs/binaries/build_absolute_path.c kısa
+https://github.com/Fatihkrty/minishell orta tr
 https://github.com/l-yohai/cub3d antlatımı
