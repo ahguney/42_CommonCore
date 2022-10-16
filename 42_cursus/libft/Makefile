@@ -65,21 +65,21 @@ NAME = libft.a
 all: $(NAME)
 
 .c.o:
-	$(CC) -c $(CFLAGS) $<
+	@$(CC) -c $(CFLAGS) $<
 
 $(NAME): $(OBJS)
-	ar -rcs $(NAME) $(OBJS)
+	@ar -rcs $(NAME) $(OBJS)
 
 clean:
-	rm -f $(OBJS) $(bonusobj)
+	@rm -f $(OBJS) $(bonusobj)
 
 fclean: clean
-	rm -f $(NAME)
+	@rm -f $(NAME)
 
 re:fclean $(NAME)
 
 bonus:  $(bonusobj) $(OBJS)
-	ar -rcs $(NAME) $(bonusobj) $(OBJS)
+	@ar -rcs $(NAME) $(bonusobj) $(OBJS)
 
 norm:
 	norminette *.[ch]
