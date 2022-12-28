@@ -5,3 +5,4 @@ https://github.com/Fatihkrty/minishell orta tr
 https://github.com/parismart/minishell açıklayıcı
 https://github.com/simology/minishellz denemeler var
 https://github.com/l-yohai/cub3d antlatımı
+https://github.com/fleizean/NetPractice-42
