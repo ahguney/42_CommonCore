@@ -5,3 +5,5 @@ https://github.com/Laubester/NetPractice
 https://github.com/dantremb/minishell // big boss
 https://github.com/Laubester/NetPractice#subnet-mask
 avl tree visualizator
+brew tap LouisBrunner/valgrind
+brew install --HEAD LouisBrunner/valgrind/valgrind
