@@ -6,3 +6,15 @@ https://github.com/dantremb/minishell // big boss
 https://github.com/Laubester/NetPractice#subnet-mask
 avl tree visualizator
 https://github.com/rphlr/42-Evals/blob/106c56ae782401f40858fde6879d6395b86703ee/Rank04/CPP_Modules/CPP06/img/all.jpg
+Std::vector v();
+v.insert(v1.begin(),v2.end());
+v.push_back();
+v.pop_back();
+v.front();
+v.back();
+v.size();
+v.capacity();
+v.erase(v.begin(),v.end());
+v.clear();
+v.empty();
+v.swap(v1);
