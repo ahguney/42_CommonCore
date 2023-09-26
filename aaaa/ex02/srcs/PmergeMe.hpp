@@ -1,0 +1,46 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   PmergeMe.hpp                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ahguney <ahguney@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/09/25 18:13:12 by ahguney           #+#    #+#             */
+/*   Updated: 2023/09/26 14:44:20 by ahguney          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include <iostream>
+#include <vector>
+#include <deque>
+#include <ctime>
+#include <cctype>
+#include <cstdlib>
+
+# define MICROSECOND 100000
+
+class Pmerge
+{
+	private:
+
+		std::vector<int> _input;
+		int _subarrsize;
+		std::vector<int> _sortedVector;
+		std::deque<int> _sortedDeque;
+
+	public:
+
+		Pmerge(void);
+		Pmerge(std::vector<int> input);
+		Pmerge(const Pmerge &copy);
+		Pmerge &operator=(const Pmerge &copy);
+		~Pmerge(void);
+
+		void result(void);
+		void insertionSortD(size_t left, size_t right);
+		void mergeInsertionSortD(size_t left, size_t right);
+		void mergeD(size_t left, size_t middle, size_t right);
+		void mergeInsertionSortV(int left, int right);
+		void insertionSortV(int left, int right);
+		void mergeV(int left, int middle, int right);
+};
