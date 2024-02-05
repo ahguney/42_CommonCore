@@ -1,1 +1,1 @@
-42 Cursus common_core and piscine
+42_Cursus common_core and piscine projects
